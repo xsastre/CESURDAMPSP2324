@@ -1,4 +1,4 @@
-package U1;
+package U1.nopublicatsencara;
 
 import java.io.BufferedReader;
 import java.io.IOException; 
@@ -8,7 +8,7 @@ public class UT1Exercici02 {
     public static void main(String[] args) {
         String line;
         try {
-            Process hijo = new ProcessBuilder("U1/UT1Exercici02_c").start();
+            Process hijo = new ProcessBuilder("U1/nopublicatsencara/UT1Exercici02_c").start();
             BufferedReader br = new BufferedReader(new InputStreamReader(hijo.getInputStream()));
             PrintStream ps = new PrintStream(hijo.getOutputStream());
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
