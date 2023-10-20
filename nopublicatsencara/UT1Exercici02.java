@@ -1,4 +1,4 @@
-package U1.nopublicatsencara;
+package nopublicatsencara;
 
 import java.io.BufferedReader;
 import java.io.IOException; 
