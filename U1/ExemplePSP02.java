@@ -1,9 +1,11 @@
+package U1;
+
 import java.io.File;
 import java.io.IOException;
 public class ExemplePSP02 {
     public static void main(String[] args) {
         try {
-            ProcessBuilder pBuilder = new ProcessBuilder("./ExemplePSP02_c");
+            ProcessBuilder pBuilder = new ProcessBuilder("U1/ExemplePSP02_c");
             // Modificar el path de la línia següent pel path complet allà on hagueu clonat el repositori
             pBuilder.directory(new File("/Users/xavier/JetBrains/CESURDAMPSP2324"));
             Process process = pBuilder.start();
