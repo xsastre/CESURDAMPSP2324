@@ -1,4 +1,4 @@
-package nopublicatsencara;
+package NO;
 
 import java.io.*;
 public class UT1Exercici03 {
