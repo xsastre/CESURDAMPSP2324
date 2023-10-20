@@ -1,4 +1,4 @@
-package NO;
+package U1;
 
 import java.io.*;
 public class UT1Exercici03 {
