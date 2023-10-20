@@ -5,7 +5,7 @@ public class ExemplePSP03 {
     public static void main(String args[]) { String line;
         try{
             Process fill = new
-                ProcessBuilder("U1/UT1Exercici03_c").start();
+                ProcessBuilder("U1/nopublicatsencara/UT1Exercici03_c").start();
                 BufferedReader br = new BufferedReader(new InputStreamReader(fill.getInputStream()));
                 PrintStream ps = new PrintStream(fill.getOutputStream());
                 BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
